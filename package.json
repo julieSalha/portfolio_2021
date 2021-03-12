@@ -1,0 +1,30 @@
+{
+  "name": "starter_front",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julieSalha/Starter_front.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julieSalha/Starter_front/issues"
+  },
+  "homepage": "https://github.com/julieSalha/Starter_front#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.12",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
+    "gulp-uglify": "^3.0.2"
+  },
+  "dependencies": {
+    "fsevents": "^2.1.3",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-if": "^3.0.0"
+  }
+}

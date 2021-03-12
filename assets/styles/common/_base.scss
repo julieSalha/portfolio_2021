@@ -1,0 +1,86 @@
+// ==============================================
+// BASE
+// ==============================================
+
+//
+//  Base Markup
+//  _____________________________________________
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    font-size: 62.5%; // 1rem = 10px
+}
+
+body {
+    font-family: $f-base;
+    color: $c-base;
+    font-size: 1.6em;
+    font-weight: normal;
+    font-style: normal;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: initial;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    font-size: 1.4rem;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    @include breakpoint(md) {
+        font-size: 1.2rem;
+    }
+}
+
+ol, ul {
+    list-style: none;
+}
+
+button {
+    font-family: $f-base;
+    background-color: transparent;
+    border: none;
+    border-image: none;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+//
+//  Content display
+//  _____________________________________________
+
+.hidden {
+    border:      0;
+    display:     block;
+    font-size:   0;
+    height:      0;
+    line-height: 0;
+    margin:      0;
+    overflow:    hidden;
+    padding:     0;
+    width:       0;
+}
