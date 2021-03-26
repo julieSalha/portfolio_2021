@@ -1,0 +1,56 @@
+// ==============================================
+// RESPONSIVE MOBILE FIRST
+// ==============================================
+
+@media screen and (min-width: 768px) {
+    .header__burger-menu {
+      display: none;
+    }
+  
+    .header-visuals, .menu {
+      display: inline-block;
+    }
+  
+    header nav > ul li {
+      display: inline-block;
+      margin: 5px 20px;
+    }
+  
+    .welcome__description {
+      position: relative;
+      top: -60px;
+      padding:10px;
+    }
+  
+    .welcome__title {
+      font-size: 5.5rem;
+      letter-spacing: 0;
+    }
+  
+    .welcome__text, .projects__text {
+      font-size: 2rem;
+    } 
+  
+    .skills__title, .projects__title {
+      font-size: 3rem;
+      text-align: left;
+    }
+  
+    .skills__content {
+      flex-direction: row;
+    }
+  
+    .skill {
+      width: 25%;
+      margin: 20px;
+    }
+  
+    .block-demo {
+      margin: 40px 60px;
+      width: 250px;
+    }
+  
+    .form-contact {
+      width: 50%;
+    }
+  }

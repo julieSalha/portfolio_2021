@@ -1,0 +1,29 @@
+// ==============================================
+// VARIABLES - Fonts
+// ==============================================
+
+//
+//  Base fonts
+//  _____________________________________________
+
+$f-montserrat: 'Montserrat', sans-serif;
+
+@font-face {
+    font-family: 'Pistilli';
+    src: url(../../fonts/Pistilli-Roman.otf);
+  }
+
+$f-pistilli: 'Pistilli';
+
+//
+//  Fonts weight
+//  _____________________________________________
+
+$f-montserrat-regular: 400;
+$f-montserrat-bold: 700;
+
+//
+//  Project fonts
+//  _____________________________________________
+
+$f-base: $f-montserrat;
