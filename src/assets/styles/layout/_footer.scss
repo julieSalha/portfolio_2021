@@ -1,0 +1,25 @@
+// ==============================================
+// FOOTER
+// ==============================================
+
+footer {
+    background-color: $c-red;
+    padding: 20px 10px;
+    text-align: center;
+  }
+  
+  .socials > a {
+    display: inline-block;
+    margin: 5px;
+  }
+  
+  .footer-links {
+    text-align: center;
+  }
+  
+  .footer-links > a, .footer-copyright p {
+    display: block;
+    margin: 0 5px;
+    font-size: 1rem;
+    color: $c-white;
+  }
