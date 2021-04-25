@@ -5,7 +5,7 @@ const Welcome = () => (
         <img className="welcome__image" src={beach2} alt="ocean" />
         <div className="welcome__description">
             <h1 className="welcome__title">Bonjour !</h1>
-            <p className="welcome__text">Je suis Julie SALHA, développeuse front-end basée à Paris, sensible à l'UX et l'accessibilité.</p>
+            <p className="welcome__text">Julie, développeuse web basée à Paris, sensible à l'UX et l'accessibilité.</p>
             <p className="welcome__text">Que puis-je pour vous ?</p>
         </div>
     </section>

@@ -4,12 +4,12 @@ import Projects from '../../components/projects'
 import Studies from '../../components/studies'
 
 const Home = () => (
-    <div>
+    <main>
         <Welcome/>
         <Studies/>
         <Skills/>
         <Projects/>
-    </div>
+    </main>
 )
 
 export default Home;

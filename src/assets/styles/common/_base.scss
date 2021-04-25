@@ -24,7 +24,6 @@ body {
   font-family: $f-base;
   font-size: 1.6rem;
   /*taille en em prend comme référence la taille de son parent le plus proche*/
-  padding: 10px;
   color: $c-base;
 }
 
@@ -47,6 +46,7 @@ h1, h2 {
 }
 
 h1 {
+  margin-bottom: 60px;
   letter-spacing: 10px;
   font-size: 5rem;
 }
@@ -54,6 +54,7 @@ h1 {
 h2 {
   letter-spacing: 2px;
   font-size: 2.2rem;
+  text-align: center;
 }
 
 h3 {
@@ -70,6 +71,12 @@ h4 {
 
 h4, p {
   color: $c-aubergine;
+}
+
+a.link-content {
+  display: inline-block;
+  color: #000000;
+  text-decoration: underline;
 }
 
 p {
@@ -104,3 +111,34 @@ footer, header, hgroup, menu, nav, section {
     padding:     0;
     width:       0;
 }
+
+.hide-scrollbar {
+  scrollbar-width: none; /* For Firefox */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;  /* For Chrome and Safari */
+}
+
+
+//
+//  Cursor
+//  _____________________________________________
+
+
+// * {
+// 	cursor: none;
+// }
+// .cursor {
+// 	position: absolute;
+// 	top: 0;
+// 	left: 0;
+// 	width: 32px;
+// 	height: 32px;
+// 	background-color: black;
+// 	pointer-events: none;
+// 	border-radius: 50% 100% 100% 100%;
+// 	z-index: 9999999;
+// 	mix-blend-mode: difference;
+// 	opacity: 0;
+// }

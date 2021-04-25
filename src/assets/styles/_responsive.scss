@@ -2,13 +2,86 @@
 // RESPONSIVE MOBILE FIRST
 // ==============================================
 
+.skills, .studies {
+  max-width: 1024px;
+  margin: auto;
+}
+
+@media screen and (min-width: 500px) {
+  .block-demo {
+    margin: 40px 60px;
+    max-width: 250px;
+    width: 100%;
+  }
+
+  .skill {
+    min-width: calc(50% - 40px);
+    width: calc(50% - 40px);
+    margin: 20px;
+  }
+
+  .skills__content {
+    flex-direction: row;
+  }
+
+}
+
 @media screen and (min-width: 768px) {
+  .studies-content {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  .block-study {
+    width: 33%;
+    min-width: 33%;
+  }
+
+  .footer-copyright {
+    text-align: left;
+  }
+
+  .skill__title {
+    font-size: 1.5rem;
+  }
+
+  .footer-copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .portfolio-photo__close {
+    top: 48px;
+    right: 80px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
     .header__burger-menu {
       display: none;
     }
   
     .header-visuals, .menu {
       display: inline-block;
+    }
+
+    header {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+    }
+
+    header nav {
+      position: static;
+      z-index: 10;
+      opacity: 1;
+      visibility: visible;
+
+      &::after {
+        display: none;
+      }
     }
   
     header nav > ul li {
@@ -30,27 +103,31 @@
     .welcome__text, .projects__text {
       font-size: 2rem;
     } 
+
+    .skill {
+      min-width: 28%;
+      width: 28%;
+      margin: 20px;
+    }
   
     .skills__title, .projects__title {
       font-size: 3rem;
       text-align: left;
     }
   
-    .skills__content {
-      flex-direction: row;
-    }
-  
-    .skill {
-      width: 25%;
-      margin: 20px;
-    }
-  
-    .block-demo {
-      margin: 40px 60px;
-      width: 250px;
-    }
-  
     .form-contact {
       width: 50%;
+    }
+
+    .portfolio-photo__close {
+      top: 70px;
+      right: 120px;
+    }
+  }
+
+  @media screen and (min-width: 1600px) {
+    .portfolio-photo__close {
+      top: 80px;
+      right: 280px;
     }
   }

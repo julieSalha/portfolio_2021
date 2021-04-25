@@ -2,6 +2,10 @@
 // SKILLS
 // ==============================================
 
+.skills {
+  margin-bottom: 20px;
+}
+
 .skills__title, .projects__title {
     font-size: 2rem;
     text-align: center;
@@ -25,8 +29,9 @@
   
   .skill__title {
     position: relative;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-transform: uppercase;
+    line-height: 27px;
   }
   
   .skill__title::first-letter {
@@ -53,8 +58,17 @@
   }
   
   .skill--integration::before {
-    left: -9px;
-    top: 2px;
+    left: -10px;
+    top: 1px;
     height: 25px;
     width: 25px;
+  }
+
+  .skill--front::before, .skill--responsive::before {
+    top: -1px;
+  }
+
+  .skill--version::before, .skill--basics::before {
+    left: -8px;
+    top: -2px;
   }

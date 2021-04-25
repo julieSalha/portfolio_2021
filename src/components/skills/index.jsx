@@ -8,22 +8,19 @@ import Version from '../skill-version/'
 import Basics from '../skill-basics/'
 
 const Skills = () => (
-    <div>
+    <section className="skills" id="skills">
         <h2>Compétences</h2>
-
-        <section className="skills" id="skills">
-            <div className="skills__content">
-                <Integration />
-                <Front />
-                <Responsive />
-                <Accessibility />
-                <Seo />
-                <Cms />
-                <Version />
-                <Basics />
-            </div>
-        </section>
-    </div>
+        <div className="skills__content">
+            <Integration />
+            <Front />
+            <Responsive />
+            <Accessibility />
+            <Seo />
+            <Cms />
+            <Version />
+            <Basics />
+        </div>
+    </section>
 )
 
 export default Skills;

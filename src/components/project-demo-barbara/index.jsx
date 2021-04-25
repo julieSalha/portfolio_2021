@@ -1,13 +1,6 @@
 const Barbara = () => (
     <div className="block-demo block-demo--barbara">
-        <h4>Barbara Bui</h4>
-        <Router>
-            <Switch>
-                <Route path="/barbara-project">
-                    <BarbaraProject />
-                </Route>
-            </Switch>
-        </Router>
+        <h4><a className="link-content" href="https://www.barbarabui.com/" target="_blank">Site web</a></h4>
     </div>
 )
 

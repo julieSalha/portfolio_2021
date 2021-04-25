@@ -1,12 +1,10 @@
 import React from 'react'
-import Button from '../button/Button.js'
 
 export default class Havea extends React.Component {
     render() {
         return (
             <div className="block-demo block-demo--havea">
-                <h4>Havea</h4>
-                <Button />
+                <h4><a className="link-content" href="https://www.havea.com/" target="_blank">Site web</a></h4>
             </div>
         )
     }

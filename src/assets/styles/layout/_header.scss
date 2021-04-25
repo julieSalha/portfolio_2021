@@ -2,6 +2,10 @@
 // HEADER
 // ==============================================
 
+header {
+  padding: 10px;
+}
+
 .header__burger-button {
     background-color: #FFFFFF;
     color: #fe0100;
@@ -30,12 +34,15 @@
   }
 
   header nav {
-    display: none;
+    z-index: 0;
     position: absolute;
-    z-index: 10;
+    left: 0;
     width: 100%;
     background-color: white;
     transition: .3s ease;
+    opacity: 0;
+    visibility: hidden;
+    
 
     &::after {
       content: '';
@@ -48,7 +55,11 @@
     }
 
     &.active {
-      display: block;
+      z-index: 10;
+      opacity: 1;
+      visibility: visible;
+
+      //display: block;
     }
   }
 
@@ -120,3 +131,5 @@
     display: block;
     margin: auto;
   }
+
+  
