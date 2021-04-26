@@ -24,7 +24,7 @@ const App = () => (
   <Router>
   <div>
   <i className="cursor"></i>
-    <header>
+    <header className="header">
       <div className="header-visuals">
         <div className="header__burger-menu">
             <button type="button" className="header__burger-button" id="header__burger-button" onClick={toggleMenu}>
@@ -95,6 +95,24 @@ const closeMenu = (e) => {
   document.querySelector('#header__burger-button').classList.remove('active');
   document.querySelector('header nav').classList.remove('active');
 }
+
+function setNavHeight() {
+  const navbar = document.querySelector('header nav.active');
+  if (navbar) {
+    console.log('setNavHeight');
+    (navbar).style.height = window.innerHeight - 81 + 'px';
+  }
+}
+
+if (window.matchMedia("(max-width: 1023px)").matches) {
+  setNavHeight();
+
+  window.addEventListener('resize', function() {
+    setNavHeight()
+  });
+}
+
+
 
 
 // function move({ clientX: x, clientY: y, target }) {
