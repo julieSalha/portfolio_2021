@@ -18,7 +18,7 @@ import reportage_mini from '../../assets/img/photo/reportage_mobile.jpg'
 import reportage from '../../assets/img/photo/reportage.jpg'
 
 const Studies = () => (
-    <section id="studies" className="studies">
+    <section className="studies">
         <h2>Parcours</h2>
         <div className="studies-content">
             <div className="block-study">
@@ -78,7 +78,7 @@ const Studies = () => (
             <div className="block-study">
                 <img className="picto-study picto-study--photo" src={www} alt="camera" />
                 <p>2018- 2021</p>
-                <p>Développement web</p>
+                <p id="projects" >Développement web</p>
             </div>
         </div>
     </section>

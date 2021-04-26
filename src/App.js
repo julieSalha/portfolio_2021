@@ -1,8 +1,7 @@
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from 'react-router-dom'
 import './App.scss';
 import Logo from './components/logo'
@@ -16,6 +15,8 @@ import green_it from '../src/assets/img/picto/green_it.jpeg'
 import voltaire from '../src/assets/img/picto/voltaire.svg'
 
 import animejs from "animejs/lib/anime.es.js";
+
+import { HashLink as Link } from 'react-router-hash-link';
 
 import Home from './pages/home'
 
@@ -42,13 +43,13 @@ const App = () => (
         <nav onClick={closeMenu}>
             <ul>
                 <li>
-                    <Link to="/#skills">Compétences</Link>
+                    <Link to="#skills">Compétences</Link>
                 </li>
                 <li>
-                    <Link href="/#studies">Parcours</Link>
+                    <Link to="#studies">Parcours</Link>
                 </li>
                 <li>
-                    <Link to="/#projects">Projets</Link>
+                    <Link to="#projects">Projets</Link>
                 </li>
                 <li>
                     <Link to="#contact">Contact</Link>
@@ -60,7 +61,7 @@ const App = () => (
     <Switch>
       <Route path="/" component={Home} />
     </Switch>
-    <footer id="#contact">
+    <footer id="contact">
     <div className="socials">
       <a className="socials__linkedin" href="https://www.linkedin.com/in/juliesalha/" target="_blank" rel="noopener noreferrer"><img src={icon_linkedin} alt="linkedin" /></a>
       <a className="socials__github" href="https://github.com/julieSalha" target="_blank" rel="noopener noreferrer"><img src={icon_github} alt="github" /></a>

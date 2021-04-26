@@ -9,7 +9,7 @@ import Barbara from '../project-demo-barbara/index.jsx'
 import Havea from '../../components/project-demo-havea/Havea.js'
 
 const Projects = () => (
-    <section id="#projects">
+    <section>
         <h2>Projets</h2>
         <div className="projects__content">
             <Barbara />

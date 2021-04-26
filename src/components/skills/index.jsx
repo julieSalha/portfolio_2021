@@ -8,7 +8,7 @@ import Version from '../skill-version/'
 import Basics from '../skill-basics/'
 
 const Skills = () => (
-    <section className="skills" id="skills">
+    <section className="skills">
         <h2>Compétences</h2>
         <div className="skills__content">
             <Integration />
