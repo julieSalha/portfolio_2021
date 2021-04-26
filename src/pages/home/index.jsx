@@ -4,7 +4,7 @@ import Projects from '../../components/projects'
 import Studies from '../../components/studies'
 
 const Home = () => (
-    <main>
+    <main id="back-to-top">
         <Welcome/>
         <Skills/>
         <Studies/>

@@ -36,7 +36,7 @@ const App = () => (
             </button>
         </div>
         <div className="header__logo">
-            <a className="go-home" href="/"><Logo /></a>
+            <Link className="go-home" to="#back-to-top"><Logo /></Link>
         </div>
       </div>
       <div className="header-navigation">

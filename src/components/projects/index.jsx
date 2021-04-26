@@ -21,7 +21,7 @@ const Projects = () => (
             <Havea />
             <Monoprix />
             <div className="block-demo block-demo--perso">
-                <h4><a className="link-content" href="" target="_blank">Piano & Co.</a></h4>
+                <h4><a className="link-content" href="https://github.com/learning-music-piano" target="_blank" rel="noreferrer">Piano & Co.</a></h4>
             </div>
         </div>
     </section>
