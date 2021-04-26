@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio_2021/static/css/main.a8d20f2b.chunk.css",
-    "main.js": "/portfolio_2021/static/js/main.156679b2.chunk.js",
-    "main.js.map": "/portfolio_2021/static/js/main.156679b2.chunk.js.map",
-    "runtime-main.js": "/portfolio_2021/static/js/runtime-main.25023a76.js",
-    "runtime-main.js.map": "/portfolio_2021/static/js/runtime-main.25023a76.js.map",
-    "static/js/2.ad46ef44.chunk.js": "/portfolio_2021/static/js/2.ad46ef44.chunk.js",
-    "static/js/2.ad46ef44.chunk.js.map": "/portfolio_2021/static/js/2.ad46ef44.chunk.js.map",
-    "static/js/3.8a2769b8.chunk.js": "/portfolio_2021/static/js/3.8a2769b8.chunk.js",
-    "static/js/3.8a2769b8.chunk.js.map": "/portfolio_2021/static/js/3.8a2769b8.chunk.js.map",
+    "main.css": "/portfolio_2021/static/css/main.7ee1f5c9.chunk.css",
+    "main.js": "/portfolio_2021/static/js/main.a44929be.chunk.js",
+    "main.js.map": "/portfolio_2021/static/js/main.a44929be.chunk.js.map",
+    "runtime-main.js": "/portfolio_2021/static/js/runtime-main.a708af6b.js",
+    "runtime-main.js.map": "/portfolio_2021/static/js/runtime-main.a708af6b.js.map",
+    "static/js/2.420397fc.chunk.js": "/portfolio_2021/static/js/2.420397fc.chunk.js",
+    "static/js/2.420397fc.chunk.js.map": "/portfolio_2021/static/js/2.420397fc.chunk.js.map",
+    "static/js/3.4744dbc6.chunk.js": "/portfolio_2021/static/js/3.4744dbc6.chunk.js",
+    "static/js/3.4744dbc6.chunk.js.map": "/portfolio_2021/static/js/3.4744dbc6.chunk.js.map",
     "index.html": "/portfolio_2021/index.html",
-    "static/css/main.a8d20f2b.chunk.css.map": "/portfolio_2021/static/css/main.a8d20f2b.chunk.css.map",
-    "static/js/2.ad46ef44.chunk.js.LICENSE.txt": "/portfolio_2021/static/js/2.ad46ef44.chunk.js.LICENSE.txt",
+    "static/css/main.7ee1f5c9.chunk.css.map": "/portfolio_2021/static/css/main.7ee1f5c9.chunk.css.map",
+    "static/js/2.420397fc.chunk.js.LICENSE.txt": "/portfolio_2021/static/js/2.420397fc.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/portfolio_2021/static/media/water.589923b9.jpg",
     "static/media/archi.4de5d1ac.jpg": "/portfolio_2021/static/media/archi.4de5d1ac.jpg",
     "static/media/archi_mobile.a306a32c.jpg": "/portfolio_2021/static/media/archi_mobile.a306a32c.jpg",
@@ -40,9 +40,9 @@
     "static/media/www.9b74ea3d.svg": "/portfolio_2021/static/media/www.9b74ea3d.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.25023a76.js",
-    "static/js/2.ad46ef44.chunk.js",
-    "static/css/main.a8d20f2b.chunk.css",
-    "static/js/main.156679b2.chunk.js"
+    "static/js/runtime-main.a708af6b.js",
+    "static/js/2.420397fc.chunk.js",
+    "static/css/main.7ee1f5c9.chunk.css",
+    "static/js/main.a44929be.chunk.js"
   ]
 }
