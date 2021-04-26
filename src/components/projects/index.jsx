@@ -14,12 +14,15 @@ const Projects = () => (
         <div className="projects__content">
             <Barbara />
             <Dinh />
+            <Lvn />
+            <Legramme />
             <Nature />
             <SNCF />
             <Havea />
             <Monoprix />
-            <Lvn />
-            <Legramme />
+            <div className="block-demo block-demo--perso">
+                <h4><a className="link-content" href="" target="_blank">Piano & Co.</a></h4>
+            </div>
         </div>
     </section>
 )

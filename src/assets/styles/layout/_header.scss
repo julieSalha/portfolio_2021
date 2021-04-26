@@ -4,6 +4,11 @@
 
 header {
   padding: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: white;
 }
 
 .header__burger-button {

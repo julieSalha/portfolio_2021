@@ -6,8 +6,8 @@ import Studies from '../../components/studies'
 const Home = () => (
     <main>
         <Welcome/>
-        <Studies/>
         <Skills/>
+        <Studies/>
         <Projects/>
     </main>
 )

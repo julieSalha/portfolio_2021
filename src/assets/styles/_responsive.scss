@@ -56,6 +56,12 @@
     top: 48px;
     right: 80px;
   }
+
+  .footer-certifications {
+    width: 50%;
+    min-width: 50%;
+    justify-content: flex-end;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -71,6 +77,11 @@
       display: flex;
       flex-wrap: nowrap;
       justify-content: space-between;
+      position: fixed;
+      top: 0;
+      z-index: 100;
+      width: 100%;
+      background-color: white;
     }
 
     header nav {

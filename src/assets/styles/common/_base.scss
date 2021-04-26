@@ -79,6 +79,11 @@ a.link-content {
   text-decoration: underline;
 }
 
+.link-content {
+  color: #000000;
+  text-decoration: underline;
+}
+
 p {
   margin-bottom: 10px;
 }
@@ -88,6 +93,10 @@ label {
   font-size: 1rem;
   font-weight: bold;
   padding: 10px;
+}
+
+main {
+  padding-top: 12px;
 }
 
 /* HTML5 display-role reset for older browsers */

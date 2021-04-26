@@ -27,12 +27,14 @@ const Studies = () => (
                 <p>Santé</p>
             </div>
             <div className="block-study">
-                <img className="picto-study picto-study--photo" src={camera} alt="camera" />
-                <p>2011- 2013</p>
-                <p><a className="link-content" href="/" onClick={openPortfolio}>Photographie</a></p>
+                <a href="/" onClick={openPortfolio}>
+                    <img className="picto-study picto-study--photo" src={camera} alt="camera" />
+                    <p>2011- 2013</p>
+                    <p className="link-content">Photographie</p>
+                </a>
                 <div id="portfolio-photo" className="portfolio-photo">
                     <div className="photo-modal-container">
-                        <span className="portfolio-photo__close link-content" onClick={closePortfolio}>close</span>
+                        <span className="portfolio-photo__close link-content" onClick={closePortfolio}>fermer</span>
                         <div className="portfolio-photo__container">
                             <picture>
                                 <source media="(max-width: 768px)" srcSet={rouge_mini} />

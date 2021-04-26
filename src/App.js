@@ -42,16 +42,16 @@ const App = () => (
         <nav onClick={closeMenu}>
             <ul>
                 <li>
-                    <Link to="/#studies">Parcours</Link>
+                    <Link to="/#skills">Compétences</Link>
                 </li>
                 <li>
-                    <Link to="/#skills">Compétences</Link>
+                    <Link href="/#studies">Parcours</Link>
                 </li>
                 <li>
                     <Link to="/#projects">Projets</Link>
                 </li>
                 <li>
-                    <Link to="/#contact">Contact</Link>
+                    <Link to="#contact">Contact</Link>
                 </li>
             </ul>
         </nav>
@@ -96,29 +96,29 @@ const closeMenu = (e) => {
 }
 
 
-function move({ clientX: x, clientY: y, target }) {
-	let scale = 1;
+// function move({ clientX: x, clientY: y, target }) {
+// 	let scale = 1;
 
-	if (target && target.classList && target.classList.contains("link-content")) {
-		scale = 1.75;
-	}
+// 	if (target && target.classList && target.classList.contains("link-content")) {
+// 		scale = 1.75;
+// 	}
 
-	const cursorElement = animejs({
-		targets: ".cursor",
-		translateX: Math.floor(x),
-		translateY: Math.floor(y),
-		rotate: x / -8 + 135,
-		scale,
-		easing: "easeOutElastic(1, 1)"
-	});
-}
+// 	const cursorElement = animejs({
+// 		targets: ".cursor",
+// 		translateX: Math.floor(x),
+// 		translateY: Math.floor(y),
+// 		rotate: x / -8 + 135,
+// 		scale,
+// 		easing: "easeOutElastic(1, 1)"
+// 	});
+// }
 
-window.addEventListener("mousemove", move);
+// window.addEventListener("mousemove", move);
 
-window.onload = () =>
-	animejs({
-		targets: ".cursor",
-		opacity: 1
-	});
+// window.onload = () =>
+// 	animejs({
+// 		targets: ".cursor",
+// 		opacity: 1
+// 	});
 
 export default App;
