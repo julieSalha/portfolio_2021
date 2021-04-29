@@ -14,8 +14,6 @@ import opquast from '../src/assets/img/picto/opquast.svg'
 import green_it from '../src/assets/img/picto/green_it.jpeg'
 import voltaire from '../src/assets/img/picto/voltaire.svg'
 
-import animejs from "animejs/lib/anime.es.js";
-
 import { HashLink as Link } from 'react-router-hash-link';
 
 import Home from './pages/home'
@@ -23,7 +21,6 @@ import Home from './pages/home'
 const App = () => (
   <Router>
   <div>
-  <i className="cursor"></i>
     <header className="header">
       <div className="header-visuals">
         <div className="header__burger-menu">
@@ -111,33 +108,5 @@ if (window.matchMedia("(max-width: 1023px)").matches) {
     setNavHeight()
   });
 }
-
-
-
-
-// function move({ clientX: x, clientY: y, target }) {
-// 	let scale = 1;
-
-// 	if (target && target.classList && target.classList.contains("link-content")) {
-// 		scale = 1.75;
-// 	}
-
-// 	const cursorElement = animejs({
-// 		targets: ".cursor",
-// 		translateX: Math.floor(x),
-// 		translateY: Math.floor(y),
-// 		rotate: x / -8 + 135,
-// 		scale,
-// 		easing: "easeOutElastic(1, 1)"
-// 	});
-// }
-
-// window.addEventListener("mousemove", move);
-
-// window.onload = () =>
-// 	animejs({
-// 		targets: ".cursor",
-// 		opacity: 1
-// 	});
 
 export default App;

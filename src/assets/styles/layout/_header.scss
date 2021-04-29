@@ -12,12 +12,13 @@ header {
 }
 
 .header__burger-button {
-    background-color: #FFFFFF;
-    color: #fe0100;
-    font-size: 0.8rem;
-    font-weight: bold;
-    border: none;
-  }
+  margin-bottom: 0;
+  background-color: #FFFFFF;
+  color: #fe0100;
+  font-size: 0.8rem;
+  font-weight: bold;
+  border: none;
+}
   
   .header__burger-line {
     display: block;
@@ -35,7 +36,7 @@ header {
   }
   
   .logo {
-    max-width: 55px;
+    max-width: 44px;
   }
 
   header nav {

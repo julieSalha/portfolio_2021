@@ -16,13 +16,10 @@ const Projects = () => (
             <Dinh />
             <Lvn />
             <Legramme />
+            <Havea />
             <Nature />
             <SNCF />
-            <Havea />
             <Monoprix />
-            <div className="block-demo block-demo--perso">
-                <h4><a className="link-content" href="https://github.com/learning-music-piano" target="_blank" rel="noreferrer">Piano & Co.</a></h4>
-            </div>
         </div>
     </section>
 )

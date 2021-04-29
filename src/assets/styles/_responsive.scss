@@ -134,11 +134,15 @@
       top: 70px;
       right: 120px;
     }
+    
+    .logo {
+      max-width: 60px;
+    }
   }
 
   @media screen and (min-width: 1600px) {
     .portfolio-photo__close {
       top: 80px;
-      right: 280px;
+      right: 330px;
     }
   }
