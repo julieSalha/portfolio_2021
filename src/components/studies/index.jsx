@@ -77,7 +77,7 @@ const Studies = () => (
             </div>
             <div className="block-study">
                 <img className="picto-study picto-study--photo" src={www} alt="camera" />
-                <p>2018- 2021</p>
+                <p>2017 - 2021</p>
                 <p id="projects" >Développement web</p>
             </div>
         </div>
