@@ -1,0 +1,128 @@
+// ==============================================
+// PROJECTS
+// ==============================================
+
+.projects {
+    margin-bottom: 50px;
+  }
+  
+  .projects__title {
+    padding: 10px;
+  }
+  
+  .projects__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .projects__content::before {
+    content:'';
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/water.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .block-demo {
+    display: block;
+    margin: 20px;
+    padding: 140px 10px 10px;
+    width: 100%;
+    height: 250px;
+    border: 2px solid $c-red;
+    background-color: $c-white;
+    background-color: rgba(255,255, 255, 0.6);
+    text-align: center;
+    z-index: 1;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+  }
+  
+  .block-demo button {
+    opacity: 0;
+  
+  }
+  
+  .block-demo, .block-demo button {
+    transition: 0.3s;
+  }
+  
+  .block-demo:hover {
+    background-color: rgba(255,255, 255, 1);
+  }
+  
+  .block-demo:hover button{
+    opacity: 1;
+  }
+  
+  /* Block demo Nature */
+  
+  .block-demo--nature {
+    background-image: url(../img/clients/nature_et_decouvertes.svg);
+    background-position: center 15%;
+  }
+  
+  /* Block demo SNCF */
+  
+  .block-demo--sncf {
+    background-image: url(../img/clients/sncf.svg);
+    background-position: center 15%;
+  }
+  
+  /* Block demo Monoprix */
+  
+  .block-demo--monoprix {
+    background-image: url(../img/clients/monoprix.svg);
+    background-position: center 25%;
+  }
+  
+  /* Block demo Dinh Van */
+  
+  .block-demo--dinh {
+    background-image: url(../img/clients/dinh_van.svg);
+    background-position: center 25%;
+    background-size: 75%;
+  }
+  
+  .demo-dinh img {
+    max-width: 200px;
+  }
+  
+  /* Block demo Barbara */
+  
+  .block-demo--barbara {
+    background-image: url(../img/clients/barbara_bui.svg);
+    background-position: center 25%;
+    background-size: 90%;
+  }
+  
+  /* Block demo Havea */
+  
+  .block-demo--havea {
+    background-image: url(../img/clients/havea.svg);
+    background-position: center 25%;
+    background-size: 80%;
+  }
+
+    /* Block demo LVN */
+  
+    .block-demo--lvn {
+      background-image: url(../img/clients/la_vie_naturelle.svg);
+      background-position: center 25%;
+      background-size: 75%;
+    }
+
+
+
+    /* Block demo Le Gramme */
+  
+    .block-demo--le-gramme {
+      background-image: url(../img/clients/le_gramme.svg);
+      background-position: center 25%;
+      background-size: 75%;
+    }

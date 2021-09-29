@@ -1,0 +1,73 @@
+// ==============================================
+// SKILLS
+// ==============================================
+
+.skills {
+  margin-bottom: 20px;
+}
+
+.skills__title, .projects__title {
+    font-size: 2rem;
+    text-align: center;
+    letter-spacing: 0;
+  }
+  
+  .skills__content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .skill {
+    width: 260px;
+    border: 2px solid;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  .skill__title {
+    position: relative;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    line-height: 27px;
+  }
+  
+  .skill__title::first-letter {
+    letter-spacing: 5px;
+    color: $c-white;
+  }
+  
+  .skill__title::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    left: -7px;
+    top: 0px;
+    height: 30px;
+    width: 30px;
+    background-color: $c-red;
+    border-radius: 20px;
+    z-index: -1;
+  }
+  
+  .skill--integration::first-letter {
+    letter-spacing: 8px;
+  }
+  
+  .skill--integration::before {
+    left: -10px;
+    top: 1px;
+    height: 25px;
+    width: 25px;
+  }
+
+  .skill--front::before, .skill--responsive::before {
+    top: -1px;
+  }
+
+  .skill--version::before, .skill--basics::before {
+    left: -8px;
+    top: -2px;
+  }

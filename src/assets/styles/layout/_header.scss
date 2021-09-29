@@ -1,0 +1,134 @@
+// ==============================================
+// HEADER
+// ==============================================
+
+header {
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: white;
+}
+
+.header__burger-button {
+  margin-bottom: 0;
+  background-color: #FFFFFF;
+  color: #fe0100;
+  font-size: 0.8rem;
+  font-weight: bold;
+  border: none;
+}
+  
+  .header__burger-line {
+    display: block;
+    margin-bottom: 10px;
+    height: 3px;
+    background: #fe0100;
+    color: #fe0100;
+    border-radius: 20px;
+  }
+  
+  .header-visuals {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    max-width: 44px;
+  }
+
+  header nav {
+    z-index: 0;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    transition: .3s ease;
+    opacity: 0;
+    visibility: hidden;
+
+    &.active {
+      z-index: 10;
+      height: 100vh;
+      background-color: rgba(254,1,0, 0.2);
+      opacity: 1;
+      visibility: visible;
+
+      //display: block;
+    }
+  }
+
+  
+  header nav > ul {
+    padding: 10px;
+    background-color: white;
+  }
+  
+  header nav > ul li {
+    display: block;
+    margin: 4px 25px;
+    list-style: none;
+    text-align: left;  
+  }
+  
+  header nav > ul li a {
+    position: relative;
+    color: #fe0100;
+    font-family: "Pistilli";
+    font-size: 1.2em;
+    z-index: 100;
+  }
+  
+  header nav > ul li a:after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 3px;
+    background: red;
+    border-radius: 10px;
+    -webkit-transition: width 1s;
+    transition: width 1s;
+  }
+  
+  header nav > ul li a:hover:after {
+    width: 100%;
+  }
+  
+  header #hello {
+    text-align: center;
+    position: relative;
+  }
+  
+  header #translation {
+    position: absolute;
+    top: 3%;
+    left: 1%;
+  }
+  
+  header #translation .translation_lang {
+    font-weight: 100;
+    font-size: 0.7em;
+    color: #ffffff;
+  }
+  
+  header .hello_title {
+    margin-top: -60px;
+  }
+  
+  .go-home {
+    display: inline-block;
+    // position: relative;
+    // top: 15px;
+    // margin: 10px 20px 10px 40px;
+  }
+  
+  .menu {
+    display: block;
+    margin: auto;
+  }
+
+  

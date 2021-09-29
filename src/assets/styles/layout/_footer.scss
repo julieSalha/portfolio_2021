@@ -1,0 +1,48 @@
+// ==============================================
+// FOOTER
+// ==============================================
+
+footer {
+    background-color: $c-red;
+    padding: 20px 10px;
+    text-align: center;
+  }
+  
+  .socials > a {
+    display: inline-block;
+    margin: 5px;
+  }
+  
+  .footer-links {
+    text-align: center;
+  }
+  
+  .footer-links > a, .footer-copyright p {
+    display: block;
+    margin: 0 5px;
+    color: $c-white;
+  }
+
+  .footer-links > a:not(.contact-link), .footer-copyright p {
+    font-size: 1rem;
+  }
+
+  .contact-link {
+    font-size: 1.4rem;
+  }
+
+  .socials, .footer-links {
+    margin-bottom: 10px;
+  }
+
+  .footer-certifications {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+
+  .certi-logo {
+    margin: 10px;
+    width: 100%;
+    max-width: 100px;
+  }

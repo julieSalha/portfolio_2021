@@ -1,0 +1,71 @@
+// ==============================================
+// CONTACT
+// ==============================================
+
+.contact {
+    margin-bottom: 30px;
+  }
+  
+.form-contact {
+    margin: 20px auto 30px;
+    width: 100%;
+    -webkit-box-shadow: $c-box-shadow;
+    -moz-box-shadow: $c-box-shadow;
+    box-shadow: $c-box-shadow;
+}
+  
+.form-contact form {
+    padding: 20px 50px;
+}
+  
+.form-contact__header {
+    margin-bottom: 30px;
+    padding: 10px;
+    height: 70px;
+    text-align: center;
+    background: $c-blue;
+    background: $g-blue;
+}
+  
+.form-contact__title {
+    position: relative;
+    top: 25px;
+}
+  
+label[for="lname"], label[for="mail"]  {
+    margin-right: 50px;
+}
+
+label[for="fname"] {
+    margin-right: 15px;
+}
+
+label[for="subject"] {
+    margin-right: 10px;
+}
+
+input, textarea {
+    border-image: none;
+    border-style: none;
+    border: 1px solid;
+}
+
+input {
+    margin-bottom: 10px;
+    height: 30px;
+    width: 200px;
+    padding: 0 10px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+}
+
+.form-contact__submit {
+    text-align: right;
+}
+
+.form-contact__phone img{
+    margin-right: 20px;
+}

@@ -1,0 +1,153 @@
+// ==============================================
+// BASE
+// ==============================================
+
+//
+//  Base Markup
+//  _____________________________________________
+
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+  /* ( / 16pixels de base) ici 1rem = 10pixels */
+}
+
+body {
+  font-family: $f-base;
+  font-size: 1.6rem;
+  /*taille en em prend comme référence la taille de son parent le plus proche*/
+  color: $c-base;
+}
+
+img {
+  max-width: 100%;
+}
+
+a:not([target="_blank"]):not(.contact-link) {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4 {
+  margin-bottom: 10px;
+}
+
+h1, h2 {
+  font-family: "Pistilli";
+  font-weight: normal;
+  color: $c-red;
+}
+
+h1 {
+  margin-bottom: 60px;
+  letter-spacing: 10px;
+  font-size: 5rem;
+}
+
+h2 {
+  letter-spacing: 2px;
+  font-size: 2.2rem;
+  text-align: center;
+}
+
+h3 {
+  letter-spacing: 6px;
+  font-family: "Pistilli";
+  font-weight: normal;
+  font-size: 3rem;
+  color: $c-pink;
+}
+
+h4 {
+  font-size: 1.2rem;
+}
+
+h4, p {
+  color: $c-aubergine;
+}
+
+a.link-content {
+  display: inline-block;
+  color: #000000;
+  text-decoration: underline;
+}
+
+.link-content {
+  color: #000000;
+  text-decoration: underline;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+label {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 10px;
+}
+
+main {
+  padding-top: 12px;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+//
+//  Content display
+//  _____________________________________________
+
+.hidden {
+    border:      0;
+    display:     block;
+    font-size:   0;
+    height:      0;
+    line-height: 0;
+    margin:      0;
+    overflow:    hidden;
+    padding:     0;
+    width:       0;
+}
+
+.hide-scrollbar {
+  scrollbar-width: none; /* For Firefox */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;  /* For Chrome and Safari */
+}
+
+
+//
+//  Cursor
+//  _____________________________________________
+
+
+// * {
+// 	cursor: none;
+// }
+// .cursor {
+// 	position: absolute;
+// 	top: 0;
+// 	left: 0;
+// 	width: 32px;
+// 	height: 32px;
+// 	background-color: black;
+// 	pointer-events: none;
+// 	border-radius: 50% 100% 100% 100%;
+// 	z-index: 9999999;
+// 	mix-blend-mode: difference;
+// 	opacity: 0;
+// }

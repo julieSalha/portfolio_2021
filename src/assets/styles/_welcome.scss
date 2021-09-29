@@ -1,0 +1,39 @@
+// ==============================================
+// WELCOME
+// ==============================================
+
+.welcome {
+    position: relative;
+    text-align: center;
+}
+
+.welcome__image {
+  width: 100%;
+}
+  
+.welcome__title {
+  font-size: 3rem;
+  letter-spacing: 0;
+}
+
+.welcome__description {
+  position: relative;
+  top: -40px;
+  padding: 10px;
+}
+  
+.welcome__text, .projects__text {
+  font-size: 1.1rem;
+  text-align: center;
+}
+  
+.translation {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.translation__lang {
+  color: $c-white;
+  font-size: 1rem;
+}

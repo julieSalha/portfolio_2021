@@ -1,0 +1,30 @@
+// ==============================================
+// VARIABLES - Colors
+// ==============================================
+
+//
+//  Base colors
+//  _____________________________________________
+
+$c-aubergine:       #22181c;
+$c-white:           #ffffff;
+$c-red:             #fe0100;
+$c-pink:            #f45b69;
+
+//
+//  Project colors
+//  _____________________________________________
+
+// Primary
+$c-base:            $c-aubergine;
+
+// Secondary
+$c-blue:             rgb(58,108,168);
+
+// Box Shadow
+$c-box-shadow: 4px 7px 16px 2px rgba(0,0,0,0.35);
+
+// Gradient
+
+$g-blue:             linear-gradient(180deg, rgba(58,108,168,1) 0%, rgba(99,167,198,1) 49%, rgba(173,199,208,1) 100%);
+

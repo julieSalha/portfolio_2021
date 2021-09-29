@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+// ==============================================
+// PORTFOLIO
+// ==============================================
+
+//
+//  Variables
+//  _____________________________________________
+
+@import "../src/assets/styles/variables/colors";
+@import "../src/assets/styles/variables/fonts";
+
+//
+//  Mixins
+//  _____________________________________________
+
+@import "../src/assets/styles/mixins/media-queries";
+
+
+//
+//  Common
+//  _____________________________________________
+
+@import "../src/assets/styles/common/base";
+@import "../src/assets/styles/common/buttons";
+
+
+// Header
+@import "../src/assets/styles/layout/header";
+
+// Footer
+@import "../src/assets/styles/layout/footer";
+
+//
+//  Custom elements
+//  _____________________________________________
+
+@import "../src/assets/styles/contact";
+@import "../src/assets/styles/cursor";
+@import "../src/assets/styles/projects";
+@import "../src/assets/styles/skills";
+@import "../src/assets/styles/studies";
+@import "../src/assets/styles/welcome";
+@import "../src/assets/styles/responsive";
